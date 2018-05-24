@@ -8,6 +8,6 @@ def line(line)
     katz_deli.each_with_index do |name, index|
       lineup += " #{index + 1} #{name}"
     end
-    return lineup
+    puts lineup
   end
 end
