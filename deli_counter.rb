@@ -1,7 +1,7 @@
 katz_deli = []
 
-def line
-  if katz_deli.length == 0
+def line(line)
+  if line == 0
     puts "The line is currently empty."
   else
     lineup = "The line is currently:"
