@@ -12,4 +12,7 @@ def line(line)
   end
 end
 
-def take_a_number
+def take_a_number(line, name)
+  line << name
+  puts ""
+end
